@@ -1,0 +1,29 @@
+<?xml version ="1.0" encoding="UTF-8"  standalone="yes"?>
+<?xml-stylesheet type="text/css" href="../css/styleXMLMessi.css"?>
+<joueurs>
+    <documentation date="10/12/2021" auteur="Kevin Sarr">
+        Lionel Messi est un joueur de 34 ans qui évolu dans le club
+        <lien>https://www.psg.fr/</lien> voici une image du joueur dans son actuel : 
+        <lien>images/messi.jpg</lien>
+    </documentation>
+<joueur Idj="2">
+<nom>Messi</nom>
+<prenom>Lionel</prenom>
+<age>34 ans</age>
+<poste>attaquant</poste>
+<num>30</num>
+<historique>
+    <documentation>
+        Lionel MESSI, parfois surnommé Leo Messi, né le 24 juin 1987 à Rosario en Argentine, est  un footballeur international argentin évoluant au poste d'attaquant au Paris 
+        Saint-Germain
+        <lien>https://fr.wikipedia.org/wiki/Lionel_Messi</lien>.Il a fait ses début dans le championat espagnol dans le clus FC Barcelon <lien>https://www.fcbarcelona.fr/fr/</lien>
+        où il a rempoté 4 fois la ligue des champions UEFA, une fois les Jeux Olympiques, 10 fois la LIGA, 7 fois le coupe du ROI, 8 fois supercoupe d'espagne, 3 fois le coupe du monde des clubs, 1 fois AUDI Cup at 5 fois Trophée Joan Gamper. 
+
+    </documentation>
+    <club Idc="2" dateEntrée="07/09/2015" >
+        <nom>FC Barcelone</nom>
+        <division>LIGA</division>
+    </club>
+</historique>
+</joueur>
+</joueurs>

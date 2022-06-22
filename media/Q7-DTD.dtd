@@ -1,0 +1,14 @@
+<!ELEMENT Joueurs (documentation+,joueur*)>
+<!ELEMENT documentation (#PCDATA | lien*)>
+<!ATTLIST documentation date CDATA #IMPLIED auteur CDATA #IMPLIED >
+<!ELEMENT lien (#PCDATA)>
+<!ELEMENT joueur(documentation*,Nom,Prenom,Age,Post,Num,Historique)>
+<!ATTLIST joueur Idj ID #REQUIRED >
+<!ELEMENT Nom (#PCDATA)>
+<!ELEMENT Prenom (#PCDATA)>
+<!ELEMENT Age (#PCDATA)>
+<!ELEMENT Post (#PCDATA)>
+<!ELEMENT Num (#PCDATA)>
+<!ELEMENT Historique (#PCDATA|documentation*,club+)>
+<!ELEMENT club (nom,division)>
+<!ATTLIST club Idc ID #REQUIRED dateEntrée CDATA #IMPLIED dateSortie #IMPLIED >

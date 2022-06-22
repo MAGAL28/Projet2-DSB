@@ -1,0 +1,41 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-image: url('../images/cours.jpg');
+	width: auto;
+	height: auto;
+}
+
+section
+{
+	padding: 0 100px;
+	height: 100vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row-reverse;
+}
+.box
+{
+	position: relative;
+	max-width: 600px;
+	padding: 50px;
+	background: rgba(255, 255, 255, .2);
+	box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+
+}
+.box h2 {
+	margin: 0 0 20px;
+	padding: 0;
+	font-size: 40px;
+	text-transform: uppercase;
+	color: #044463;
+
+}
+.box p {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+	
+}

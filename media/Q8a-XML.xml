@@ -1,0 +1,29 @@
+<?xml version ="1.0" encoding="UTF-8"  standalone="yes"?>
+<?xml-stylesheet type="text/css" href="../css/styleXML.css"?>
+<joueurs>
+    <documentation date="12/04/2022" auteur="Jean Dupond">
+        Mbappé est un joueur de 23 ans qui évolu dans le club
+        <lien>https://www.psg.fr/</lien> voici une image du joueur plus jeune : 
+        <lien>images/mbappé.jpg</lien> et en voici une plus récente au PSG
+        <lien>https://en.psg.fr/teams/first-team/squad/kylian-mbappe</lien>
+    </documentation>
+<joueur Idj="1">
+<nom>Mbappé</nom>
+<prenom>Kylian</prenom>
+<age> 23 ans </age>
+<poste>attaquant</poste>
+<num>7</num>
+<historique>
+    <documentation date="03/03/2015" auteur="Riad Sattouf">
+        Kylian Mbappé, né le 20 Décembre 1998 à Paris est un footballeur international français qui a fait ses débuts dans le club de Monaco : 
+        <lien>https://www.asmonaco.com/</lien> il est également un des acteurs majeurs de l'équipe de france qui remporte la coupe du monde 2018  en Russie. Voici une
+        photo lors de la coupe de monde : 
+        <lien>images/mbappéCM.jpg</lien>
+    </documentation>
+    <club Idc="1" dateEntrée="07/09/2015" dateSortie="1/07/2018">
+        <nom>AS Monaco</nom>
+        <division>ligue 1</division>
+    </club>
+</historique>
+</joueur>
+</joueurs>

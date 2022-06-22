@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="../css/explore.css">
+	<title>MyClub</title>
+</head>
+<body>
+	<section class="showcase">
+		<header>
+					<nav class="deroulant">
+						<ul>
+							<li>
+								<a href="home.html" title="Acceuil">Acceuil</a>
+							</li>
+							<li>
+								<a href="http://localhost:8888/sous-page-php/cours.php" title="Cours">DSB</a>
+								<ul class="sub-menu">
+									<li>
+										<a href="../media/Q8a-XML.xml" title="Q8a-XML.xml">Fichier XML.a</a>
+									</li>
+									<li>
+										<a href="../media/Q8b-XML.xml" title="Q8b-XML.xml">Fichier XML.b</a>
+									</li>
+									<li>
+										<a href="../media/Q7-DTD.dtd" title="Q7-DTD.dtd">Fichier DTD</a>
+									</li>
+									<li>
+										<a href="https://validator.w3.org/nu/#textarea" target="_blank" title="XHTML">Validation XHTML</a>
+									</li>
+									<li>
+										<a href="https://jigsaw.w3.org/css-validator/" target="_blank" title="CSS">Validation CSS</a>
+									</li>
+								</ul>
+							</li>
+							<li>
+								<a href="#" title="Contact">Contact</a>
+							</li>
+						</ul>
+					</nav>
+			<div class="toggle"></div>
+		</header>
+		<video src="../videos/explore.mp4" muted loop autoplay></video>
+
+		<div class="overlay"></div>
+		<ul class="explore">
+			<li><a href="http://localhost:8888/sous-page-php/blog.php"><img src="../images/news.png" alt=""><br/>NEWS</a></li>
+			<li><a href="http://localhost:8888/sous-page-php/club.php"><img src="../images/club.png" alt=""><br/>CLUBS</a></li>
+			<li><a href="http://localhost:8888/sous-page-php/forum.php"><img src="../images/forum.png" alt=""><br/>FORUM</a></li>
+			<li><a href="http://localhost:8888/sous-page-php/index.php"><img src="../images/connexionp.png" alt=""><br/>CONNEXION</a></li>
+		</ul>
+	
+		
+		
+		
+		
+		
+		<ul class="social">
+			<li><a href="https://fr-fr.facebook.com/" target="_blank"><img src="../images/facebook.png" alt="Facebook"/></a></li>
+			<li><a href="mailto:serigne.seck@etudiant.univ-rennes1.fr" target="_blank"><img src="../images/mail.png" alt="Email"/></a></li>
+			<li><a href="https://www.instagram.com/?hl=fr" target="_blank"><img src="../images/instagram.png" alt="Instagram"/></a></li>
+		</ul>
+
+	</section>
+
+	<div class="menu">
+		<ul>
+			<li><a href="home.html">ACCEUIL</a></li>
+			<li><a href="../sous-page-php/cours.php">DSB</a></li>
+			<li><a href="#">CONTACT</a></li>
+		</ul>
+	</div>
+	<script >
+		const menuToggle = document.querySelector('.toggle')
+		const showcase = document.querySelector('.showcase')
+
+		menuToggle.addEventListener('click', () => {
+			menuToggle.classList.toggle('active')
+			showcase.classList.toggle('active')
+
+		})
+	</script>
+</body>
+</html>

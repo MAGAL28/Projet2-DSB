@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: 'Poppins',sans-serif;
+	text-decoration: none;
+}
+header {
+	background-color: navy;
+}
+a
+{
+	text-decoration: none;
+}
+header li {
+	display: inline-block;
+	vertical-align: top;
+	position: relative;
+
+}
+header li a{
+	display: block;
+	margin-right: 25px;
+	padding: 0px;
+	text-decoration: none;
+	color: #fff;
+	font-size: 0.85em;
+	padding-left: 23px;
+	text-decoration: none;
+
+}
+section {
+	text-decoration: none;
+	list-style: none;
+
+}
+
+.connexion {
+margin-left: 1200px ;
+display: flex;
+position: relative;
+
+}
+.connexion a img{
+	width: 25px;
+}
+.logo 
+{
+	text-align: center;
+}
+
+/********************************************************************************/
+#blog{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 40px;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.09);
+	background-color: #D3D3D3;
+}
+.blog-heading{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-decoration: none;
+}
+.blog-heading span {
+	color: #f33c3c;
+	text-decoration: none;
+}
+
+.blog-heading h3 {
+	font-size: 2.4rem;
+	color: #2b2b2b;
+	font-weight: 600;
+}
+#blog .blog-heading span a {
+	text-decoration: none;
+}
+.blog-container{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px 0px;
+	flex-wrap: wrap;
+}
+.blog-box{
+	width: 350px;
+	background-color: #ffffff;
+	border: 1px solid #ececec;
+	margin: 20px;
+
+
+}
+.blog-img{
+	width: 100%;
+	height: auto;
+}
+.blog-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+#container , #container1,#container2,#container3,#container4,#container5{
+		/*padding: 2rem;
+		background-color: #fff;
+		border-radius: 4px;
+		line-height: 1.4rem;
+		box-shadow: 0 0 1rem rgba(0, 0, 0, .1);
+		gap: 1rem;*/
+		height: flex;
+		box-sizing: border-box;
+		width: 350px;
+		background: #ffffff;
+		border-radius: 5px;
+		padding: 40px;
+
+	}
+#container p, #container1 p , #container2 p , #container3 p , #container4 p, #container5 p{
+	color: #bba8bff5;
+	font-size: 17px;
+	font-weight: 500;
+	margin-bottom: 6px;
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+
+#container.active p, #container1.active p , #container2.active p , #container3.active p , #container4.active p, #container5.active p{
+	display: block;
+}
+#container.active #span::before,#container1.active #span1::before,,#container2.active #span2::before
+,#container3.active #span3::before ,#container4.active #span4::before,#container5.active #span5::before{
+	content: 'show less';
+
+}
+.read-more-btn{
+		color: blueviolet;
+	}
+.read-more-text{
+		display: none;
+	}
+.read-more-text--show{
+	display: inline;
+}
+#span::before,#span1::before ,#span2::before ,#span3::before ,#span4::before ,#span5::before{
+	content: 'show more';
+	color: #b66dff;
+	cursor:pointer;
+}
+/************** Site club *********/
+a [title = "voirSite"] {
+	text-decoration: none;
+}

@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/**{
+	margin: 0px;
+	padding: 0px;
+	font-family: poppins;
+	box-sizing: border-box;
+}
+
+a
+{
+	text-decoration: none;
+}
+ul{
+	list-style: none;
+}
+body{
+	margin: 0px;
+	padding: 0px;
+	font-family: poppins;
+}
+body img{
+	padding: 20px;
+	width: 150px;
+}
+#contain {
+	height: flex;
+		box-sizing: border-box;
+		width: 350px;
+		background: #ffffff;
+		border-radius: 5px;
+		padding: 40px;
+}
+.blog-heading {
+display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}*/
+/***********************************************************************/
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+.container {
+	height: 100vh;
+	width: 100%;
+	background-image: url(../images/podcastBackground.jpg);
+	background-size: cover;
+	background-position: center;
+	position: relative;
+}
+.navbar {
+	width: 88%;
+	margin: auto;
+	padding: 15px 0;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+
+}
+.logo {
+	padding: 20px;
+	width: 150px;
+	cursor: pointer;
+}
+.navbar ul li {
+	list-style: none;
+	display: inline-block;
+	margin: 0 15px;
+	font-size: 0.8em;
+}
+.navbar ul li a{
+	text-decoration: none;
+	color: white;
+}
+.content {
+	width: 100%;
+	top: 30%;
+	color: white;
+}
+.left-col{
+	margin-left: 6%;
+}
+.left-col h1{
+	font-size: 90px;
+	color: #fff;
+	line-height: 110px;
+	float: left;
+}
+.right-col{
+	float: right;
+	margin-right: 6%;
+	margin-top: 120px;
+	display: flex;
+	align-items: center;
+
+}
+.right-col p {
+	font-size: 18px;
+	color: blueviolet;
+	font-weight: 400;
+	margin-right: 15px;
+}
+#icon{
+	width: 80px;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
